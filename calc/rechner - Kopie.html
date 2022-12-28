@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+          font-family: Arial;
+          padding: 20%;
+        }
+    </style>
+</head>
+<body>
+  <center>
+    <form>
+        <input required type="number" id="z1">
+        <h1>x</h1>
+        <input required type="number" id="z2"><br>
+        <br>
+        <input type="button" value="berechnen" onclick="berechnen ()">
+    </form>
+  </center>
+
+  <script>
+    function berechnen ()
+    {
+     let o1 = document.getElementById("z1").value;
+     let o2 = document.getElementById("z2").value;
+     let b = document.write(o1 * o2)
+    }
+   
+</script>
+</body>
+</html>
